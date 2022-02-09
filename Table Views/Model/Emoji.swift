@@ -5,7 +5,7 @@
 //  Created by Konstantin Ryabtsev on 08.02.2022.
 //
 
-struct Emoji {
+struct Emoji: Codable {
     var symbol: String
     var name: String
     var description: String
@@ -28,11 +28,7 @@ extension Emoji {
             Emoji(symbol: "⛔️", name: "Стоп", description: "Знак стоп", usage: "Проезд запрещен"),
         ]
     }
-    
-    static func loadAll() -> [Emoji]? {
-        return nil
-    }
-    
+
     static func loadDefaults() -> [Emoji] {
         return all
     }
