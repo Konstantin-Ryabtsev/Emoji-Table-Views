@@ -18,6 +18,9 @@
 		0AB9D65227B2EF6400E33E3E /* CellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9D65127B2EF6400E33E3E /* CellManager.swift */; };
 		0AB9D65627B3217600E33E3E /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9D65527B3217600E33E3E /* EmojiCell.swift */; };
 		0AB9D65827B3469D00E33E3E /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9D65727B3469D00E33E3E /* EmojiTextField.swift */; };
+		0AB9D65D27B3FE9000E33E3E /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB9D65A27B3FE9000E33E3E /* Screenshot02.png */; };
+		0AB9D65E27B3FE9000E33E3E /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB9D65B27B3FE9000E33E3E /* Screenshot03.png */; };
+		0AB9D65F27B3FE9000E33E3E /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB9D65C27B3FE9000E33E3E /* Screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		0AB9D65127B2EF6400E33E3E /* CellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellManager.swift; sourceTree = "<group>"; };
 		0AB9D65527B3217600E33E3E /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
 		0AB9D65727B3469D00E33E3E /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
+		0AB9D65A27B3FE9000E33E3E /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		0AB9D65B27B3FE9000E33E3E /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		0AB9D65C27B3FE9000E33E3E /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +72,9 @@
 		0AB9D63127B2E6D200E33E3E /* Table Views */ = {
 			isa = PBXGroup;
 			children = (
+				0AB9D65927B3FE7E00E33E3E /* Screenshots */,
 				0AB9D65027B2EF4000E33E3E /* Manager */,
 				0AB9D64627B2E6FB00E33E3E /* Model */,
-				0AB9D63427B2E6D200E33E3E /* SceneDelegate.swift */,
 				0AB9D64B27B2EA5200E33E3E /* Supporting Files */,
 				0AB9D64927B2EA1100E33E3E /* View Controllers */,
 				0AB9D64A27B2EA1D00E33E3E /* Views */,
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				0AB9D63227B2E6D200E33E3E /* AppDelegate.swift */,
+				0AB9D63427B2E6D200E33E3E /* SceneDelegate.swift */,
 				0AB9D63B27B2E6D800E33E3E /* Assets.xcassets */,
 				0AB9D64027B2E6D800E33E3E /* Info.plist */,
 			);
@@ -136,6 +143,16 @@
 				0AB9D65727B3469D00E33E3E /* EmojiTextField.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		0AB9D65927B3FE7E00E33E3E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0AB9D65C27B3FE9000E33E3E /* Screenshot01.png */,
+				0AB9D65A27B3FE9000E33E3E /* Screenshot02.png */,
+				0AB9D65B27B3FE9000E33E3E /* Screenshot03.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +215,10 @@
 			files = (
 				0AB9D63F27B2E6D800E33E3E /* LaunchScreen.storyboard in Resources */,
 				0AB9D63C27B2E6D800E33E3E /* Assets.xcassets in Resources */,
+				0AB9D65F27B3FE9000E33E3E /* Screenshot01.png in Resources */,
 				0AB9D63A27B2E6D200E33E3E /* Main.storyboard in Resources */,
+				0AB9D65E27B3FE9000E33E3E /* Screenshot03.png in Resources */,
+				0AB9D65D27B3FE9000E33E3E /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
